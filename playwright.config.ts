@@ -63,13 +63,13 @@ export default defineConfig({
        },
     },
 
-    // {
-    //   name: 'webkit',
-    //   dependencies: ['Setup'],
-    //   use: { ...devices['Desktop Safari'],
-    //     storageState: './playwright/.auth/auth.json'
-    //    },
-    // },
+    {
+      name: 'webkit',
+      dependencies: ['Setup'],
+      use: { ...devices['Desktop Safari'],
+        storageState: './playwright/.auth/auth.json'
+       },
+    },
 
     /* Test against mobile viewports. */
     // {
