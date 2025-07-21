@@ -26,6 +26,7 @@ export class LoginPage {
      */
     async gotoSite() {
        await this.page.goto(`${process.env.BASE_URL}/web/index.php/auth/login`);
+       //await this.page.goto('https://www.google.com/');
     }
 
     /**

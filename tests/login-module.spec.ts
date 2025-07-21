@@ -21,7 +21,6 @@ test.describe('Login Page Test Cases', {
         const password = commonUtils.decryptData(process.env.PASSWORD!);
 
         await loginPage.login(username, password);
-
         await expect(dashboardPage.dashboardPageTitle).toBeVisible();
 
     })
@@ -30,9 +29,7 @@ test.describe('Login Page Test Cases', {
         const password = commonUtils.decryptData(process.env.PASSWORD!);
 
         await loginPage.login(loginModuleData.wrong_username, password);
-
         await expect(loginPage.invalidCredentialsErrorPopup).toHaveText(loginModuleData.invalid_credentials_text);
-
         await expect(loginPage.userNameInputField).toBeVisible();
     })
 
@@ -40,18 +37,14 @@ test.describe('Login Page Test Cases', {
         const username = commonUtils.decryptData(process.env.USER_NAME!);
 
         await loginPage.login(username, loginModuleData.wrong_password);
-
         await expect(loginPage.invalidCredentialsErrorPopup).toHaveText(loginModuleData.invalid_credentials_text);
-
         await expect(loginPage.userNameInputField).toBeVisible();
     })
 
     test('Login with invalid credentials', async ({ gotoUrl, loginPage, commonUtils }) => {
 
         await loginPage.login(loginModuleData.wrong_username, loginModuleData.wrong_password);
-
         await expect(loginPage.invalidCredentialsErrorPopup).toHaveText(loginModuleData.invalid_credentials_text);
-
         await expect(loginPage.userNameInputField).toBeVisible();
     })
 
@@ -60,7 +53,6 @@ test.describe('Login Page Test Cases', {
         await loginPage.login("", "");
 
         await expect(loginPage.emptyUsernameRequiredPopup).toBeVisible();
-
         await expect(loginPage.emptyPasswordRequiredPopup).toBeVisible();
     })
 
