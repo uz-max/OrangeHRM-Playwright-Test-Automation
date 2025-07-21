@@ -5,6 +5,7 @@ import { DashboardPage } from '../pages/DashboardPage';
 import { UserPage } from '../pages/UserPage';
 import { LeftNavigationPage } from '../pages/LeftNavigationPage';
 import { PimPage } from '../pages/PimPage';
+import { ResetPassword } from '../pages/ResetPasswordPage';
 
 type PomFixtureType = {
     loginPage: LoginPage;
@@ -12,6 +13,7 @@ type PomFixtureType = {
     userPage: UserPage;
     leftNavigationPage: LeftNavigationPage;
     pimPage: PimPage;
+    resetPassword: ResetPassword;
 }
 
 export const test = baseTest.extend<PomFixtureType>({
@@ -33,5 +35,9 @@ export const test = baseTest.extend<PomFixtureType>({
 
     pimPage: async({page}, use) => {
         await use(new PimPage(page));
+    },
+
+    resetPassword: async({page}, use) => {
+        await use(new ResetPassword(page));
     }
 });
