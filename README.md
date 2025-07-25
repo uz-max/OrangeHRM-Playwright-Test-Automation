@@ -101,7 +101,7 @@ This framework supports **Azure DevOps Pipelines**:
 ## 👤 Author Info
 
 **Uzair Khan**  
-GitHub: [@uzairkhandev](https://github.com/uzairkhandev)
+GitHub: [@uzairkhandev](https://github.com/uz-max/OrangeHRM-Playwright-Test-Automation.git)
 
 ## ⚠️ Special Notes
 
