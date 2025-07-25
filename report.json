@@ -1,0 +1,1883 @@
+{
+  "config": {
+    "configFile": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\playwright.config.ts",
+    "rootDir": "C:/My Project from Github/OrangeHRM-Playwright-Test-Automation/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "test-results/junit-report.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "playwright-report/report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/My Project from Github/OrangeHRM-Playwright-Test-Automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "Setup",
+        "name": "Setup",
+        "testDir": "C:/My Project from Github/OrangeHRM-Playwright-Test-Automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "globalSetup.ts"
+        ],
+        "timeout": 90000
+      },
+      {
+        "outputDir": "C:/My Project from Github/OrangeHRM-Playwright-Test-Automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/My Project from Github/OrangeHRM-Playwright-Test-Automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 90000
+      },
+      {
+        "outputDir": "C:/My Project from Github/OrangeHRM-Playwright-Test-Automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/My Project from Github/OrangeHRM-Playwright-Test-Automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 90000
+      },
+      {
+        "outputDir": "C:/My Project from Github/OrangeHRM-Playwright-Test-Automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/My Project from Github/OrangeHRM-Playwright-Test-Automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 90000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.54.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "globalSetup.ts",
+      "file": "globalSetup.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Global Setup for Auto Login",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Setup",
+              "projectName": "Setup",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7389,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-25T17:51:13.921Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6d7c970a70d6087b8a5d-38e27b24ae1cb52c4561",
+          "file": "globalSetup.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "login-module.spec.ts",
+      "file": "login-module.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Login Page Test Cases",
+          "file": "login-module.spec.ts",
+          "line": 11,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Login with valid credentials",
+              "ok": true,
+              "tags": [
+                "Login"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                        "line": 11,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6950,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:51:23.689Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                            "line": 11,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2c386f8b57a0da1cd027-1d222de4b154a1956bfb",
+              "file": "login-module.spec.ts",
+              "line": 19,
+              "column": 9
+            },
+            {
+              "title": "Login with invalid username",
+              "ok": true,
+              "tags": [
+                "Login"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                        "line": 11,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5454,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:51:30.787Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                            "line": 11,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2c386f8b57a0da1cd027-ea0accfa36387ccd4ca4",
+              "file": "login-module.spec.ts",
+              "line": 28,
+              "column": 9
+            },
+            {
+              "title": "Login with invalid password",
+              "ok": true,
+              "tags": [
+                "Login"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                        "line": 11,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5742,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:51:36.253Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                            "line": 11,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2c386f8b57a0da1cd027-15b5a00f374311fc06c9",
+              "file": "login-module.spec.ts",
+              "line": 36,
+              "column": 9
+            },
+            {
+              "title": "Login with invalid credentials",
+              "ok": true,
+              "tags": [
+                "Login"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                        "line": 11,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5200,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:51:42.003Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                            "line": 11,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2c386f8b57a0da1cd027-0a07ad230f5f22d39c0b",
+              "file": "login-module.spec.ts",
+              "line": 44,
+              "column": 9
+            },
+            {
+              "title": "Login with both fields empty",
+              "ok": true,
+              "tags": [
+                "Login"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                        "line": 11,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4417,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:51:47.209Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                            "line": 11,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2c386f8b57a0da1cd027-1a8508f13d40a1b378cd",
+              "file": "login-module.spec.ts",
+              "line": 51,
+              "column": 9
+            },
+            {
+              "title": "Verify password is hidden (masked)",
+              "ok": true,
+              "tags": [
+                "Login"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                        "line": 11,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3897,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:51:51.633Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                            "line": 11,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2c386f8b57a0da1cd027-a48defc9b20c0de4ace8",
+              "file": "login-module.spec.ts",
+              "line": 59,
+              "column": 9
+            },
+            {
+              "title": "Verify \"Forgot your password?\" link works",
+              "ok": true,
+              "tags": [
+                "Login"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                        "line": 11,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5269,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:51:55.537Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                            "line": 11,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2c386f8b57a0da1cd027-3ca2fb152f7e182a1da7",
+              "file": "login-module.spec.ts",
+              "line": 64,
+              "column": 9
+            },
+            {
+              "title": "Login with valid credentials",
+              "ok": true,
+              "tags": [
+                "Login"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                        "line": 11,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11768,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:52:29.434Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                            "line": 11,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2c386f8b57a0da1cd027-69dd8f135913d48e63e9",
+              "file": "login-module.spec.ts",
+              "line": 19,
+              "column": 9
+            },
+            {
+              "title": "Login with invalid username",
+              "ok": true,
+              "tags": [
+                "Login"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                        "line": 11,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12392,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:52:42.740Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                            "line": 11,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2c386f8b57a0da1cd027-92a3c6f28d68ae90adde",
+              "file": "login-module.spec.ts",
+              "line": 28,
+              "column": 9
+            },
+            {
+              "title": "Login with invalid password",
+              "ok": true,
+              "tags": [
+                "Login"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                        "line": 11,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6077,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:52:55.142Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                            "line": 11,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2c386f8b57a0da1cd027-926cc1c54d110edfdc22",
+              "file": "login-module.spec.ts",
+              "line": 36,
+              "column": 9
+            },
+            {
+              "title": "Login with invalid credentials",
+              "ok": true,
+              "tags": [
+                "Login"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                        "line": 11,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6120,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:53:01.227Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                            "line": 11,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2c386f8b57a0da1cd027-2674f668548cfdf75beb",
+              "file": "login-module.spec.ts",
+              "line": 44,
+              "column": 9
+            },
+            {
+              "title": "Login with both fields empty",
+              "ok": true,
+              "tags": [
+                "Login"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                        "line": 11,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4786,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:53:07.354Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                            "line": 11,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2c386f8b57a0da1cd027-57688f5103274f53c868",
+              "file": "login-module.spec.ts",
+              "line": 51,
+              "column": 9
+            },
+            {
+              "title": "Verify password is hidden (masked)",
+              "ok": true,
+              "tags": [
+                "Login"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                        "line": 11,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4773,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:53:12.148Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                            "line": 11,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2c386f8b57a0da1cd027-5808af407e54fee0b925",
+              "file": "login-module.spec.ts",
+              "line": 59,
+              "column": 9
+            },
+            {
+              "title": "Verify \"Forgot your password?\" link works",
+              "ok": true,
+              "tags": [
+                "Login"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                        "line": 11,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5351,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:53:16.928Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                            "line": 11,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2c386f8b57a0da1cd027-b28cb83d0c4f11b6fc7c",
+              "file": "login-module.spec.ts",
+              "line": 64,
+              "column": 9
+            },
+            {
+              "title": "Login with valid credentials",
+              "ok": true,
+              "tags": [
+                "Login"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                        "line": 11,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8379,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:53:54.515Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                            "line": 11,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2c386f8b57a0da1cd027-1ed50055a028900373a4",
+              "file": "login-module.spec.ts",
+              "line": 19,
+              "column": 9
+            },
+            {
+              "title": "Login with invalid username",
+              "ok": true,
+              "tags": [
+                "Login"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                        "line": 11,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6332,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:54:03.295Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                            "line": 11,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2c386f8b57a0da1cd027-db3d46e970087f529866",
+              "file": "login-module.spec.ts",
+              "line": 28,
+              "column": 9
+            },
+            {
+              "title": "Login with invalid password",
+              "ok": true,
+              "tags": [
+                "Login"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                        "line": 11,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6438,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:54:09.635Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                            "line": 11,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2c386f8b57a0da1cd027-11dbda391f3114a62756",
+              "file": "login-module.spec.ts",
+              "line": 36,
+              "column": 9
+            },
+            {
+              "title": "Login with invalid credentials",
+              "ok": true,
+              "tags": [
+                "Login"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                        "line": 11,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6287,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:54:16.080Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                            "line": 11,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2c386f8b57a0da1cd027-74c36f56ae97626a92e8",
+              "file": "login-module.spec.ts",
+              "line": 44,
+              "column": 9
+            },
+            {
+              "title": "Login with both fields empty",
+              "ok": true,
+              "tags": [
+                "Login"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                        "line": 11,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5222,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:54:22.373Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                            "line": 11,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2c386f8b57a0da1cd027-d26105c63371073de403",
+              "file": "login-module.spec.ts",
+              "line": 51,
+              "column": 9
+            },
+            {
+              "title": "Verify password is hidden (masked)",
+              "ok": true,
+              "tags": [
+                "Login"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                        "line": 11,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4856,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:54:27.602Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                            "line": 11,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2c386f8b57a0da1cd027-92c38659892b40afb1a2",
+              "file": "login-module.spec.ts",
+              "line": 59,
+              "column": 9
+            },
+            {
+              "title": "Verify \"Forgot your password?\" link works",
+              "ok": true,
+              "tags": [
+                "Login"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                        "line": 11,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5911,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:54:32.464Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\login-module.spec.ts",
+                            "line": 11,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2c386f8b57a0da1cd027-d410c9ac37fc367ab671",
+              "file": "login-module.spec.ts",
+              "line": 64,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "pim-module.spec.ts",
+      "file": "pim-module.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "PIM Page Test Cases",
+          "file": "pim-module.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Verify PIM page loads correctly",
+              "ok": true,
+              "tags": [
+                "PIM"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\pim-module.spec.ts",
+                        "line": 4,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5538,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:52:00.817Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\pim-module.spec.ts",
+                            "line": 4,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "34779aaa843a3fc19b63-737090a36109665bbe48",
+              "file": "pim-module.spec.ts",
+              "line": 12,
+              "column": 9
+            },
+            {
+              "title": "Verify that new Employee is created under PIM",
+              "ok": true,
+              "tags": [
+                "PIM"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\pim-module.spec.ts",
+                        "line": 4,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12905,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:52:06.364Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\pim-module.spec.ts",
+                            "line": 4,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "34779aaa843a3fc19b63-92c1f6af1def7be767a2",
+              "file": "pim-module.spec.ts",
+              "line": 22,
+              "column": 9
+            },
+            {
+              "title": "Verify required field validations in Add Employee",
+              "ok": true,
+              "tags": [
+                "PIM"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\pim-module.spec.ts",
+                        "line": 4,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8058,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:52:19.279Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\pim-module.spec.ts",
+                            "line": 4,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "34779aaa843a3fc19b63-2475429029b5a13b52ec",
+              "file": "pim-module.spec.ts",
+              "line": 30,
+              "column": 9
+            },
+            {
+              "title": "Verify PIM page loads correctly",
+              "ok": true,
+              "tags": [
+                "PIM"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\pim-module.spec.ts",
+                        "line": 4,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5839,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:53:22.290Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\pim-module.spec.ts",
+                            "line": 4,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "34779aaa843a3fc19b63-550c6ecf58917467e6d1",
+              "file": "pim-module.spec.ts",
+              "line": 12,
+              "column": 9
+            },
+            {
+              "title": "Verify that new Employee is created under PIM",
+              "ok": true,
+              "tags": [
+                "PIM"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\pim-module.spec.ts",
+                        "line": 4,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 15480,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:53:28.136Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\pim-module.spec.ts",
+                            "line": 4,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "34779aaa843a3fc19b63-64923368984dbdf89a66",
+              "file": "pim-module.spec.ts",
+              "line": 22,
+              "column": 9
+            },
+            {
+              "title": "Verify required field validations in Add Employee",
+              "ok": true,
+              "tags": [
+                "PIM"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\pim-module.spec.ts",
+                        "line": 4,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9299,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:53:43.630Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\pim-module.spec.ts",
+                            "line": 4,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "34779aaa843a3fc19b63-c32f201b43f5ed4aff21",
+              "file": "pim-module.spec.ts",
+              "line": 30,
+              "column": 9
+            },
+            {
+              "title": "Verify PIM page loads correctly",
+              "ok": true,
+              "tags": [
+                "PIM"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\pim-module.spec.ts",
+                        "line": 4,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6902,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:54:38.384Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\pim-module.spec.ts",
+                            "line": 4,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "34779aaa843a3fc19b63-b30d5da3b28888b5f59e",
+              "file": "pim-module.spec.ts",
+              "line": 12,
+              "column": 9
+            },
+            {
+              "title": "Verify that new Employee is created under PIM",
+              "ok": true,
+              "tags": [
+                "PIM"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\pim-module.spec.ts",
+                        "line": 4,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 15641,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:54:45.292Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\pim-module.spec.ts",
+                            "line": 4,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "34779aaa843a3fc19b63-a00fe0d413d4b5165574",
+              "file": "pim-module.spec.ts",
+              "line": 22,
+              "column": 9
+            },
+            {
+              "title": "Verify required field validations in Add Employee",
+              "ok": true,
+              "tags": [
+                "PIM"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [
+                    {
+                      "type": "Story Link",
+                      "description": "Link of story",
+                      "location": {
+                        "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\pim-module.spec.ts",
+                        "line": 4,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10798,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-07-25T17:55:00.945Z",
+                      "annotations": [
+                        {
+                          "type": "Story Link",
+                          "description": "Link of story",
+                          "location": {
+                            "file": "C:\\My Project from Github\\OrangeHRM-Playwright-Test-Automation\\tests\\pim-module.spec.ts",
+                            "line": 4,
+                            "column": 6
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "34779aaa843a3fc19b63-2482109946036c590532",
+              "file": "pim-module.spec.ts",
+              "line": 30,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-07-25T17:51:12.840Z",
+    "duration": 238951.34699999998,
+    "expected": 31,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
