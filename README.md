@@ -28,7 +28,7 @@ It also integrates **AES encryption** to securely store login credentials, with 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/uz-max/OrangeHRM-Playwright-Test-Automation.git
+   git clone https://github.com/uzair-qa/OrangeHRM-Playwright-Test-Automation.git
    cd OrangeHRM-Playwright-Test-Automation
    ```
 
@@ -101,7 +101,7 @@ This framework supports **Azure DevOps Pipelines**:
 ## 👤 Author Info
 
 **Uzair Khan**  
-GitHub: [@uzairkhandev](https://github.com/uz-max/OrangeHRM-Playwright-Test-Automation.git)
+GitHub: [@uzair-qa](https://github.com/uzair-qa/OrangeHRM-Playwright-Test-Automation.git)
 
 ## ⚠️ Special Notes
 
