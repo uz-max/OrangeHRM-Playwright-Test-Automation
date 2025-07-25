@@ -16,8 +16,8 @@ parameters:
     default: 'test_demo_cr_hl'
     values:
       - test_demo_cr_hl
-      - test_demo
       - test_demo_cr_hd
+      - test_demo
 
 steps:
 - task: NodeTool@0
